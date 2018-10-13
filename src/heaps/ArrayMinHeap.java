@@ -121,36 +121,5 @@ public class ArrayMinHeap<T extends Comparable<T>> implements MinHeap<T> {
 		test((int)Math.floor(n/2));
 		System.out.println(1);
 	}
-	
-	public static void main(String[] args) {
-//		ArrayMinHeap<Integer> minHeap = new ArrayMinHeap<>(new ArrayList<>() {{
-//			add(1);
-//			add(2);
-//			add(3);
-//			add(4);
-//			add(50);
-//			add(6);
-//			add(7);
-//			add(8);
-//			add(90);
-//			add(10);
-//			add(11);
-//			add(120);
-//			add(13);
-//			add(14);
-//			add(150);
-//			add(16);
-//			add(17);
-//			add(180);
-//			add(19);
-//		}});
-//		minHeap.decreaseKey(17);
-		//minHeap.extractMin();
-		//minHeap.insert(2);
-		
-//		System.out.println(Math.ceil(3/2));
-		
-		
-	}
 
 }
